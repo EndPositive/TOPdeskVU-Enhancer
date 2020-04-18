@@ -1,0 +1,108 @@
+@media (prefers-color-scheme: dark) {
+    DIV.selectlist, .innermargin DIV.grid-settings-popup-buttons, .notifications-panel header, .notifications-panel footer, .j3, DIV.sizer #border, #content-container, option, select {
+        background-color: #1b262c;
+    }
+
+    .j36 {
+        background-color: transparent;
+    }
+
+    .notifications-panel section, .read .notification-tile, .j55, .j2, .j17, .stretchdiv, .j13, .divpopuproot, .divpopupclientarea, .innermargin DIV.buttons, DIV#columnsscroll, .memocontainer, .suggestionsWidget {
+        background-color: #283339 !important;
+    }
+
+    html, body, BODY, iframe {
+        background-color: #1b262c !important;
+        color: rgba(255,255,255,0.88);
+    }
+
+    .notification-filter label, .browser-notifications-slider, .notifications-panel header .unread-notification-counter, .notification-tile .title, .notification-tile .body, .read .notification-tile, .i0, .i1, .i2, .i3, .i4, .i5, .i6, .i7, .i8, .i9, .i10, .divpopuproot, .divpopuptitle, .label, DIV#header DIV.title, LEGEND SPAN {
+        color: rgba(255,255,255,0.88) !important;
+    }
+
+    .f125, .f19 {
+        border: none;
+    }
+
+    .f126 {
+        border-bottom: none;
+        border-left: none;
+        border-color: #1b262c
+    }
+
+    #c17IN_2 {
+        padding-top: 0;
+    }
+
+    .header {
+        border-bottom: none;
+    }
+
+    .button, INPUT, TABLE.layouthelper, DIV.textinputlayouthelper, TABLE.layouthelper INPUT, DIV.textinputlayouthelper INPUT {
+        background-color: transparent;
+        color: rgba(255,255,255,0.88);
+    }
+
+    .button:hover {
+        background-color: #283339;
+    }
+
+    .bottombar {
+        background-color: #283339;
+        color: rgba(255,255,255,0.88);
+        border-top: 1px solid #1b262c
+    }
+
+    .notifications-panel, .notifications-panel footer, DIV.selectlist, .innermargin DIV.grid-settings-popup-buttons, .divpopupheader, DIV.column, .memoseparator, DIV.sizer #border, .f5, .f100, .f113 {
+        border-color: #1b262c !important;
+    }
+
+    .notifications-panel header, .notification-tile, .f3, .f15, .f26, .f28, .f33, .f51, .f36, .button, .f89, .j8, .ui-resizable-handle, TABLE.layouthelper, DIV.textinputlayouthelper, #suggestionbox, .selectedTableBorder, SELECT.dropdownselect {
+        border-color: #283339 !important;
+    }
+
+    .f162 {
+        border-left-color: transparent !important;
+        border-top-color: transparent !important;
+        border-bottom-color: transparent !important;
+    }
+
+    #selected {
+        background-color: #1b262c;
+    }
+
+    .j5 {
+        background-color: #057AAB;
+    }
+
+    .j5:hover {
+        background-color: #499EC1;
+        color: rgba(255,255,255,0.88);
+    }
+
+    A {
+        color: #007ab3;
+    }
+
+    #background {
+        background: #1b262c;
+    }
+
+    option, DIV#columnsscroll, .cke_editable {
+        color: rgba(255,255,255,0.88) !important;
+        background-color: transparent
+    }
+
+    div {
+        background-image: none !important;
+        background-color: transparent
+    }
+
+    button[guielement=crt-button-expand] {
+        background-color: #057AAB;
+    }
+}
+
+.stretchdiv {
+    padding: 0;
+}
