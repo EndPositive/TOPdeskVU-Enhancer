@@ -13,6 +13,7 @@
       "matches": ["*://topdesk.uc-it.vu.nl/*"],
       "all_frames": true,
       "css": ["dark_mode.css"],
+      "js": ["dark_mode.js"],
       "run_at": "document_start"
     },
     {
