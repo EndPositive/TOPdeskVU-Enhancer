@@ -1,22 +1,22 @@
 @media (prefers-color-scheme: dark) {
-    DIV.selectlist, .innermargin DIV.grid-settings-popup-buttons, .notifications-panel header, .notifications-panel footer, .j3, DIV.sizer #border, #content-container, option, select {
-        background-color: #1b262c;
+    .ui-resizable-n, .suggestionsWidgetPopup-container .td-popUp-kb, .suggestionsWidget-suggestion, DIV.selectlist, .innermargin DIV.grid-settings-popup-buttons, .notifications-panel header, .notifications-panel footer, .j3, DIV.sizer #border, #content-container, option, select {
+        background-color: #1b262c !important;
     }
 
-    .j36 {
-        background-color: transparent;
+    .j36, .j8 {
+        background-color: transparent !important;
     }
 
-    .notifications-panel section, .read .notification-tile, .j55, .j2, .j17, .stretchdiv, .j13, .divpopuproot, .divpopupclientarea, .innermargin DIV.buttons, DIV#columnsscroll, .memocontainer, .suggestionsWidget {
+    .j5, .j36[guielement=pt-entry-sidebar], .suggestionsWidgetPopup-container .next-knowledgeItem, .suggestionsWidgetPopup-container .prev-knowledgeItem, .suggestionsWidgetPopup-container .td-popUp-kb .includeApply, .suggestionsWidgetPopup-container .td-popUp-kb .footer, .suggestionsWidgetPopup-container .td-popUp-kb .header, .suggestionsWidget-suggestion:hover, .knowledgeItem-link:hover, .knowledgeItem-link:focus, .suggestionsWidget-header, .suggestionsWidget-list, .notifications-panel section, .read .notification-tile, .j55, .j2, .j17, .stretchdiv, .j13, .divpopuproot, .divpopupclientarea, .innermargin DIV.buttons, DIV#columnsscroll, .memocontainer, .suggestionsWidget {
         background-color: #283339 !important;
     }
 
     html, body, BODY, iframe {
-        background-color: #1b262c !important;
+        background-color: transparent !important;
         color: rgba(255,255,255,0.88);
     }
 
-    .notification-filter label, .browser-notifications-slider, .notifications-panel header .unread-notification-counter, .notification-tile .title, .notification-tile .body, .read .notification-tile, .i0, .i1, .i2, .i3, .i4, .i5, .i6, .i7, .i8, .i9, .i10, .divpopuproot, .divpopuptitle, .label, DIV#header DIV.title, LEGEND SPAN {
+    .cke_editable, .knowledgeItem, .suggestionsWidget-searchInput, .knowledgeItem-link, .suggestionsWidget-suggestion, .notification-filter label, .browser-notifications-slider, .notifications-panel header .unread-notification-counter, .notification-tile .title, .notification-tile .body, .read .notification-tile, .i0, .i1, .i2, .i3, .i4, .i5, .i6, .i7, .i8, .i9, .i10, .divpopuproot, .divpopuptitle, .label, DIV#header DIV.title, LEGEND SPAN {
         color: rgba(255,255,255,0.88) !important;
     }
 
@@ -38,9 +38,9 @@
         border-bottom: none;
     }
 
-    .button, INPUT, TABLE.layouthelper, DIV.textinputlayouthelper, TABLE.layouthelper INPUT, DIV.textinputlayouthelper INPUT {
-        background-color: transparent;
-        color: rgba(255,255,255,0.88);
+    .suggestionsWidget-filters > * > select, .button, INPUT, TABLE.layouthelper, DIV.textinputlayouthelper, TABLE.layouthelper INPUT, DIV.textinputlayouthelper INPUT {
+        background-color: transparent !important;
+        color: rgba(255,255,255,0.88) !important;
     }
 
     .button:hover {
@@ -53,11 +53,12 @@
         border-top: 1px solid #1b262c
     }
 
-    .notifications-panel, .notifications-panel footer, DIV.selectlist, .innermargin DIV.grid-settings-popup-buttons, .divpopupheader, DIV.column, .memoseparator, DIV.sizer #border, .f5, .f100, .f113 {
+    /* DARK */
+    .suggestionsWidget-filters > * > select, .suggestionsWidget-searchInput, .notifications-panel, .notifications-panel footer, DIV.selectlist, .innermargin DIV.grid-settings-popup-buttons, .divpopupheader, DIV.column, .memoseparator, DIV.sizer #border, .f5, .f100, .f113 {
         border-color: #1b262c !important;
     }
 
-    .notifications-panel header, .notification-tile, .f3, .f15, .f26, .f28, .f33, .f51, .f36, .button, .f89, .j8, .ui-resizable-handle, TABLE.layouthelper, DIV.textinputlayouthelper, #suggestionbox, .selectedTableBorder, SELECT.dropdownselect {
+    .suggestionsWidgetPopup-container .td-popUp-kb .footer, .suggestionsWidgetPopup-container .td-popUp-kb .header, .suggestionsWidgetPopup-container .td-popUp-kb div.separator, .suggestionsWidget-listHeader, .suggestionsWidget-filters, .suggestionsWidget-header, .suggestionsWidget, .notifications-panel header, .notification-tile, .f3, .f15, .f26, .f28, .f33, .f51, .f36, .button, .f89, .j8, .ui-resizable-handle, TABLE.layouthelper, DIV.textinputlayouthelper, #suggestionbox, .selectedTableBorder, SELECT.dropdownselect {
         border-color: #283339 !important;
     }
 
@@ -69,15 +70,6 @@
 
     #selected {
         background-color: #1b262c;
-    }
-
-    .j5 {
-        background-color: #057AAB;
-    }
-
-    .j5:hover {
-        background-color: #499EC1;
-        color: rgba(255,255,255,0.88);
     }
 
     A {
@@ -95,14 +87,20 @@
 
     div {
         background-image: none !important;
-        background-color: transparent
     }
 
     button[guielement=crt-button-expand] {
         background-color: #057AAB;
     }
-}
+    .suggestionsWidget-header {
+        box-shadow: none;
+    }
 
-.stretchdiv {
-    padding: 0;
+    .suggestionsWidgetPopup-overlay {
+        background-color: rgba(0,0,0,0.75);
+    }
+
+    .ui-resizable-n {
+        background: url("https://topdesk.uc-it.vu.nl/tas/tasimage/grid/sash_dotted_horizontal.png") no-repeat center !important;
+    }
 }
