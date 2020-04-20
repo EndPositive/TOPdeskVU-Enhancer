@@ -9,7 +9,7 @@ let editor_inteval = setInterval(function(){
         if (found === true) {
             setInterval(function(){
                 check_style()
-            }, 1000)
+            }, 500)
         }
     }
     i--;
@@ -18,6 +18,7 @@ let editor_inteval = setInterval(function(){
 function check_style() {
     let editor_frames = document.querySelectorAll("[guielement=pt-richtextarea] iframe");
     if (editor_frames.length > 0) {
+        found = true;
         editor_frames.forEach(function(editor_frame) {
             let editor = editor_frame.contentWindow.document.getElementsByClassName("cke_editable")[0]
             if (editor.style.color !== "rgba(255, 255, 255, 0.88)") {
