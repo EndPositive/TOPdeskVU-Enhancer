@@ -1,5 +1,5 @@
 @media (prefers-color-scheme: dark) {
-    .ui-resizable-n, .suggestionsWidgetPopup-container .td-popUp-kb, .suggestionsWidget-suggestion, DIV.selectlist, .innermargin DIV.grid-settings-popup-buttons, .notifications-panel header, .notifications-panel footer, .j3, DIV.sizer #border, #content-container, option, select {
+    .notification-tile:hover, .read .notification-tile, .ui-resizable-n, .suggestionsWidgetPopup-container .td-popUp-kb, .suggestionsWidget-suggestion, DIV.selectlist, .innermargin DIV.grid-settings-popup-buttons, .notifications-panel header, .notifications-panel footer, .j3, DIV.sizer #border, #content-container, option, select {
         background-color: #1b262c !important;
     }
 
@@ -7,7 +7,7 @@
         background-color: transparent !important;
     }
 
-    .cke_contents, .j5, .j36[guielement=pt-entry-sidebar], .suggestionsWidgetPopup-container .next-knowledgeItem, .suggestionsWidgetPopup-container .prev-knowledgeItem, .suggestionsWidgetPopup-container .td-popUp-kb .includeApply, .suggestionsWidgetPopup-container .td-popUp-kb .footer, .suggestionsWidgetPopup-container .td-popUp-kb .header, .suggestionsWidget-suggestion:hover, .knowledgeItem-link:hover, .knowledgeItem-link:focus, .suggestionsWidget-header, .suggestionsWidget-list, .notifications-panel section, .read .notification-tile, .j55, .j2, .j17, .stretchdiv, .j13, .divpopuproot, .divpopupclientarea, .innermargin DIV.buttons, DIV#columnsscroll, .memocontainer, .suggestionsWidget {
+    .notification-tile, .cke_contents, .j5, .j36[guielement=pt-entry-sidebar], .suggestionsWidgetPopup-container .next-knowledgeItem, .suggestionsWidgetPopup-container .prev-knowledgeItem, .suggestionsWidgetPopup-container .td-popUp-kb .includeApply, .suggestionsWidgetPopup-container .td-popUp-kb .footer, .suggestionsWidgetPopup-container .td-popUp-kb .header, .suggestionsWidget-suggestion:hover, .knowledgeItem-link:hover, .knowledgeItem-link:focus, .suggestionsWidget-header, .suggestionsWidget-list, .notifications-panel section, .j55, .j2, .j17, .stretchdiv, .j13, .divpopuproot, .divpopupclientarea, .innermargin DIV.buttons, DIV#columnsscroll, .memocontainer, .suggestionsWidget {
         background-color: #283339 !important;
     }
 
