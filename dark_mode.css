@@ -13,7 +13,7 @@
 
     html, body, BODY, iframe {
         background-color: transparent !important;
-        color: rgba(255,255,255,0.88);
+        color: rgba(255,255,255,0.88) !important;
     }
 
     .knowledgeItem, .suggestionsWidget-searchInput, .knowledgeItem-link, .suggestionsWidget-suggestion, .notification-filter label, .browser-notifications-slider, .notifications-panel header .unread-notification-counter, .notification-tile .title, .notification-tile .body, .read .notification-tile, .i0, .i1, .i2, .i3, .i4, .i5, .i6, .i7, .i8, .i9, .i10, .divpopuproot, .divpopuptitle, .label, DIV#header DIV.title, LEGEND SPAN {
@@ -21,21 +21,21 @@
     }
 
     .f125, .f19 {
-        border: none;
+        border: none !important;
     }
 
     .f126 {
-        border-bottom: none;
-        border-left: none;
-        border-color: #1b262c
+        border-bottom: none !important;
+        border-left: none !important;
+        border-color: #1b262c !important;
     }
 
     #c17IN_2 {
-        padding-top: 0;
+        padding-top: 0 !important;
     }
 
     .header {
-        border-bottom: none;
+        border-bottom: none !important;
     }
 
     .suggestionsWidget-filters > * > select, .button, INPUT, TABLE.layouthelper, DIV.textinputlayouthelper, TABLE.layouthelper INPUT, DIV.textinputlayouthelper INPUT {
@@ -44,13 +44,13 @@
     }
 
     .button:hover {
-        background-color: #283339;
+        background-color: #283339 !important;
     }
 
     .bottombar {
-        background-color: #283339;
-        color: rgba(255,255,255,0.88);
-        border-top: 1px solid #1b262c
+        background-color: #283339 !important;
+        color: rgba(255,255,255,0.88) !important;
+        border-top: 1px solid #1b262c !important;
     }
 
     /* DARK */
@@ -69,20 +69,20 @@
     }
 
     #selected {
-        background-color: #1b262c;
+        background-color: #1b262c !important;
     }
 
     A {
-        color: #007ab3;
+        color: #007ab3 !important;
     }
 
     #background {
-        background: #1b262c;
+        background: #1b262c !important;
     }
 
     option, DIV#columnsscroll, .cke_editable {
         color: rgba(255,255,255,0.88) !important;
-        background-color: transparent
+        background-color: transparent !important;
     }
 
     div {
@@ -90,14 +90,14 @@
     }
 
     button[guielement=crt-button-expand] {
-        background-color: #057AAB;
+        background-color: #057AAB !important;
     }
     .suggestionsWidget-header {
-        box-shadow: none;
+        box-shadow: none !important;
     }
 
     .suggestionsWidgetPopup-overlay {
-        background-color: rgba(0,0,0,0.75);
+        background-color: rgba(0,0,0,0.75) !important;
     }
 
     .ui-resizable-n {
