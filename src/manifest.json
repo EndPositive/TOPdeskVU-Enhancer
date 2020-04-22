@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "TOPdeskVU Enhancer",
+  "version": "1.2",
+  "description": "Several improvements in the TOPdesk environment of the Vrije Universiteit",
+  "icons": {
+    "48": "./icons/TOPdeskVU-48.png",
+    "96": "./icons/TOPdeskVU-96.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://topdesk.uc-it.vu.nl/*"],
+      "all_frames": true,
+      "css": ["styles/dark_mode.css"],
+      "js": ["scripts/dark_mode.js"],
+      "run_at": "document_start"
+    },
+    {
+      "matches": ["*://topdesk.uc-it.vu.nl/", "*://topdesk.uc-it.vu.nl/tas/secure/login/saml*"],
+      "all_frames": true,
+      "css": ["styles/init.css"],
+      "js": ["scripts/init.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
